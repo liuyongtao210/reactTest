@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
     <div>
-      hello world
+      hello world react 有更改吗
     </div>
     );
   }
