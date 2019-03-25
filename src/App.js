@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
     <div>
-      hello world react 有更改吗 阿斯蒂芬 是的分公司 
+      测试修改
     </div>
     );
   }
