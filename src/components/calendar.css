@@ -1,0 +1,74 @@
+.plugin_name{
+    color: red;
+}
+.calendar{
+    width:900px;
+    color: #000
+}
+.week_list{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.month_line{
+    height: 1px;
+    background: #F1F1F1;
+    margin: 0 50px
+}
+.every_day{
+    width: 14%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.every_day_box{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    flex-wrap: wrap;
+    color: #333
+}
+.day_item{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+.current_day{
+    color: #DD1136;
+    font-weight: bold
+}
+.other_month{
+    color: #999999
+}
+.isClick{
+    color: #fff;
+    background: #DD1136
+}
+.change_month{
+    color: #999999;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 165px;
+}
+.change_tip{
+    cursor: pointer;
+}
+.red_tip{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #DD1136;
+    border-radius: 50%;
+    bottom: 0px;
+}

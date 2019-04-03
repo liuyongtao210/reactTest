@@ -1,0 +1,230 @@
+.task_center{
+    display: flex;
+}
+.task_list{
+    width: 422px;
+    padding: 20px;
+    border: 1px solid #F1F1F1
+}
+.task_detail{
+    width: 757px;
+}
+.task_condition{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #999;
+    margin-bottom: 44px
+}
+.condition_btn{
+    color: #333;
+    width: 66px;
+    height: 32px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #E5E5E5;
+    border-radius: 2px
+}
+.task_item{
+    width: 380px;
+    height: 184px;
+    border: 1px solid #F1F1F1;
+    margin-bottom: 12px;
+    padding: 17px 22px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 15px rgba(233, 233, 233, 0.71)
+}
+.task_name{
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 12px
+}
+.task_list_con{
+    color: #666666;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px
+}
+.task_list_bottom{
+    margin-top: 12px
+}
+.task_type{
+    width: 46px;
+    height: 24px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    position: absolute;
+    right: 21px;
+    top:17px;
+}
+.task_item_isSelect{
+   border-top: 1px solid #DD1136;
+}
+.task_type_1{
+    border: 1px solid #DD1136;
+    color: #DD1136
+}
+.task_type_2{
+    color: #027FFF;
+    border: 1px solid #027FFF;
+}
+.task_item_isSelect .task_type_1{
+    background: #DD1136;
+    color: #fff
+}
+.task_item_isSelect .task_type_2{
+    background: #027FFF;
+    color: #fff
+}
+.t_list_left{
+    margin-right: 5px;
+   
+}
+.task_detail{
+    margin-left: 14px;
+    border: 1px solid #F1F1F1;
+    padding: 0 22px;
+}
+.task_bottom_bor{
+    border-bottom: 1px solid #F1F1F1
+}
+.task_detail_title{
+    color: #333333;
+    font-size: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.task_con_title{
+    color: #333333;
+    font-size: 18px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-weight: bold
+}
+.task_con_list{
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.task_con_list2{
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    font-size: 16px;
+}
+.task_dsc_con{
+    line-height: 30px;
+    text-align: right;
+    font-size: 16px;
+    color: #333;
+}
+.task_dsc{
+    margin-top: 17px
+}
+.upload_data{
+    color: #134FFC;
+    font-size: 16px;
+    border-bottom: 1px solid #134FFC;
+    cursor: pointer;
+}
+.grade_list_con{
+    padding: 13px 0;
+}
+.grade_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 38px;
+}
+.level_img{
+    width: 21px;
+    height: 20px;
+    margin-left: 9px
+}
+.classRed{
+    color: red
+}
+.up_load_task{
+    display: flex;
+    font-size: 16px;
+    padding-top: 20px
+}
+.submit_btn{
+    background: #DD1136;
+    width: 90px;
+    height: 36px;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 21px
+}
+.uploadfile{
+    position: absolute;
+    z-index: -1000;
+    display: none
+}
+.label_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.show_file_name{
+    width: 233px;
+    height: 46px;
+    border: 1px solid #C4C4C4;
+    line-height: 46px;
+    padding: 0 10px;
+    margin-right: 10px;
+    overflow:hidden; 
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.file_btn{
+    width: 106px;
+    height: 46px;
+    border:1px solid #999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    cursor: pointer
+}
+.up_left{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.page_con,.page_change{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.page_change{
+    width: 83px;
+    height: 34px;
+    border: 1px solid #E5E5E5;
+    border-radius: 2px;
+    margin-left: 20px;
+    color: #999;
+    cursor: pointer;
+}
+.page_change_cur{
+    color: #DD1136;
+    border: 1px solid #DD1136;
+}
