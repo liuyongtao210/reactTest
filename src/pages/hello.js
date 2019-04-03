@@ -6,7 +6,7 @@ class Hello extends Component{
     render(){
         return (
             <div className="btn">
-                按钮
+                按钮asdfsfd
             </div>
         )
     }
